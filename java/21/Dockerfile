@@ -20,9 +20,9 @@
 # SOFTWARE.
 #
 
-FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:21-jdk
+FROM        --platform=$TARGETOS/$TARGETARCH eclipse-temurin:23-jdk
 
-LABEL       author="Matthew Penner" maintainer="matthew@pterodactyl.io"
+LABEL       author="Flyzar73" maintainer="Flyzar73"
 
 LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
